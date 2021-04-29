@@ -1,0 +1,11 @@
+print("Nama : Randy Arief Prasetya")
+print("NIM : 04119017")
+print("Prodi : Sistem Komputer")
+print("--------------------------------------")
+print("Masukkan Kalimat :")
+teks = input()
+print("Output Kalimat :")
+print(teks.split())
+for kata in teks.split():
+  print(kata)
+print("Terdeksi Ada {} Kata".format(len(teks.split())))
